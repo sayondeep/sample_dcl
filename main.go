@@ -10,20 +10,20 @@ import (
 )
 
 var (
-	vendorID                     = 4891                      //imp
-	productID                    = 32769                     //imp
-	softwareVersions             = []int{10080000, 105, 106} //imp
-	softwareVersion              = 106                       //imp
-	softwareVersionString        = "106.0"                   //imp
-	cdVersionNumber              = 1                         //imp
+	vendorID                     = 4891            //imp
+	productID                    = 4100            //imp
+	softwareVersions             = []int{10010001} //imp
+	softwareVersion              = 10010001        //imp
+	softwareVersionString        = "1.1.0-660"
+	cdVersionNumber              = 1
 	firmwareInformation          = ""
-	softwareVersionValid         = true                                                                //imp
-	otaUrl                       = "https://sayon-rm.s3.amazonaws.com/apple-light-matter-ota_v106.bin" //imp
+	softwareVersionValid         = true
+	otaUrl                       = "http://192.168.1.161:8000/ota_firmware/all_products_compressed_dcl.bin" //imp
 	otaFileSize                  = "1430977"
 	otaChecksum                  = "l98JrB7hsstBBagr0VPudPzyBqZptDOpVZPMXzEgPj8="
 	otaChecksumType              = 1
-	minApplicableSoftwareVersion = 0    //imp
-	maxApplicableSoftwareVersion = 1000 //imp
+	minApplicableSoftwareVersion = 10010000 //imp
+	maxApplicableSoftwareVersion = 10010010 //imp
 	releaseNotesUrl              = ""
 	creator                      = "cosmos1d8vdghcynsl8r7ram2ref3zz6ez6n54f4aat76"
 	schemaVersion                = 0

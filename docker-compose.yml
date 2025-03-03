@@ -2,9 +2,9 @@ services:
   server:
     build:
       context: .
-      dockerfile: dac-server.dockerfile
-    image: "dac-server"
-    container_name: dac-server
+      dockerfile: local-dcl.dockerfile
+    image: "local-dcl"
+    container_name: local-dcl
     ports:
       - "8000:8000"
     restart: unless-stopped
